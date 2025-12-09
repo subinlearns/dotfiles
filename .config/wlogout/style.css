@@ -1,0 +1,89 @@
+@import "mocha.css";
+
+* {
+  background-image: none;
+}
+
+window {
+   background-color: rgba(30, 30, 46, 0.40);
+}
+
+button {
+  background-color: rgba(30, 30, 46, 0.80);
+  outline-style: none;
+  /*margin-left: 3px;*/
+  margin: 0;
+  border: none;
+  border-width: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10%;
+  border-radius: 0px;
+  animation: gradient_f 20s ease-in infinite;
+  text-shadow: none;
+  letter-spacing: 1px;
+}
+
+button:focus {
+  background-color: rgba(30, 30, 46, 0.90);
+  background-size: 10%;
+  border: none;
+}
+
+button:hover {
+  background-color: @mauve;
+  background-size: 25%;
+  border-radius: 12px;
+  animation: gradient_f 20s ease-in infinite;
+  transition: all 0.3s cubic-bezier(.55,0.0,.28,1.682);
+  color: black;
+}
+
+#shutdown {
+  margin-bottom: -2.5rem;
+  margin-right: -2rem;
+  background-image: url("/home/odin/.config/wlogout/icons/power.png");
+}
+#shutdown:hover {
+  background-image: url("/home/odin/.config/wlogout/icons/power-hover.png");
+}
+
+#reboot {
+  margin-top: 1.4rem;
+  background-image: url("/home/odin/.config/wlogout/icons/restart.png");
+}
+#reboot:hover {
+  background-image: url("/home/odin/.config/wlogout/icons/restart-hover.png");
+}
+
+#lock {
+  background-image: url("/home/odin/.config/wlogout/icons/lock.png");
+  margin-left: 16rem;
+}
+#lock:hover {
+  background-image: url("/home/odin/.config/wlogout/icons/lock-hover.png");
+}
+
+#suspend {
+  margin-left: 12rem;
+  background-image: url("/home/odin/.config/wlogout/icons/sleep.png");
+}
+#suspend:hover {
+  background-image: url("/home/odin/.config/wlogout/icons/sleep-hover.png");
+}
+
+#hibernate {
+  background-image: url("/home/odin/.config/wlogout/icons/hibernate.png");
+  margin: 8rem -106rem -8rem 106rem;
+}
+#hibernate:hover {
+  background-image: url("/home/odin/.config/wlogout/icons/hibernate-hover.png");
+}
+
+#logout {
+  background-image: url("/home/odin/.config/wlogout/icons/logout.png");
+  margin: -8rem 106rem 8rem -106rem;
+}
+#logout:hover {
+  background-image: url("/home/odin/.config/wlogout/icons/logout-hover.png");
+}

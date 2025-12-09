@@ -1,0 +1,6 @@
+[Unit]
+Description=20-20-20 Reminder
+
+[Service]
+Type=exec
+ExecStart=/home/odin/Scripts/20rule.sh
