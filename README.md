@@ -37,7 +37,7 @@ git clone https://github.com/subinlearns/dotfiles.git ~/.dotfiles
 
 ```bash
 cd ~/.dotfiles
----
+```
 
 ```bash
 cp -r ~/.dotfiles/* ~/
